@@ -1,30 +1,30 @@
 // C++ language is case sensitive , ignore white spaces, commandwork horizontally, 
-// a statement end with semi-colon; , quotes and double quotes have differences .
+// a statement end with semi-colon(;) , quotes and double quotes have differences .
 
 #include <iostream>
-using namespace std; /// still confusion.
+using namespace std; // still confusion.
 
-int main()
-{
-    cout << "HI" << endl;
-    cout << (" everyone \n"); cout << " noon";
-    cout << "\twelcome back";
-    cout << (5);   
-}
+// int main()
+// {
+//     cout << "HI" << endl;
+//     cout << (" everyone \n"); cout << "noon";
+//     cout << "\twelcome back" << endl;
+//     cout << (5);   
+// }
 
 
 //int main () { cout << "Hello World! "; return 0; }
 
 ///////////////////////////////////////////////////////////
 
-//  main(){
+// int main(){
 //     float a= 4, aa= 44 , bb=66; int b = 4.4;
 //     int c= 'g';
 //     string s= "hell";
-//      const int p= 99;
-//     cout << "a is " << a<< "  b"<< b;
+//     const int p= 99;
+//     cout << "aa is " << aa << " b is "<< b;
 //     cout << "\n ";
-//     cout << "c and s" << c << "\n" << s; 
+//     cout << "c and s" << c << "\n" << s;
 // }
 
 //////////////////////////////////////////////////////////
@@ -35,19 +35,18 @@ int main()
 //     cout << "this is a calculator";
 //     cout << "\n numbers ";
 //     cin >>x >>y ;
-//     cout << "ans is " << x+y << "\n" << x-y << x*y;
+//     cout << "ans is " << x+y << "\n" << x-y <<endl << x*y;
 // }
 
 ///////////////////////////////////////////////////////////
 // #include "typeinfo"
 // int main(){
-    
 //     int a=5,b;
 //     b= a+6;
 //     cout << (b+5);
 //     cout << ("\n");
 //     int x=4, y=8;
-//      cout << typeid(b).name() << endl;
+//     cout << typeid(b).name() << endl;
 //     cout << !(x==4 && y<9);
 
 // }
@@ -58,45 +57,41 @@ int main()
 //     string s= "aeroplanes" , t= "fly";
 //     string f= s+" " +t;
 //    // cout << s+t <<"hi";
-//     cout << s.append(t);
+//     cout << s.append(t) << endl;
 //     t.append(s);
 //    // cout <<s;
 //     cout <<t;
+//     cout << endl << f << endl;
 // }
 
 //////////////////////////////////////////////////////////
 
 // int main(){
-//     string a ,name;
-//     string n= "time-machine";
-//     a= n.length();
-//     cout << n.size();
-//     cout <<"\n";
+//     string name;
+//     string n = "time-machine"; //a string also has null value at its end
+//     cout << n.length()<< " " <<  n.size() << endl;
 
-//     a= n[2];
-//     cout << a;
+//     char a= n[2];
+//     cout << a << endl;
 //     n[0]= 'l';
 //     cout << n;
 //         cout <<"\n";
 //     cin >> name;
 //     cout << name;
-
 // }
 
 ///////////////////////////////////////////////////////////
 
 // #include <cmath>
 // int main(){
-//     cout << max(5,7) << min (8,9);
-//     cout << max(2,3);
+//     cout << max(5,7) << " " << min (8,9) << endl;
+//     cout << max(2,3) << endl;  //only take two arguments
 //     int a= sqrt(25);
-    
-//     cout << " " << a;
+//     cout << a << endl;
 //     bool m= true;
-//     bool n= false;
-//     cout << m ;
+//     bool n= 0;
+//     cout << m << " " << n <<endl;
 //     cout << (3==4);
-
 // }
 
 //////////////////////////////////////////////////////////
@@ -104,46 +99,43 @@ int main()
 // int main(){
 //     int a,b;
 //     cout<< "start\n";  
-//     cin >> a>> b;
-//     if(a>b)
-//     {
-//         cout << "i won";
+//     cin >> a >> b;
+//     if(a>=b){
+//         cout << "cmd 1" << endl;
 //     }
    
 //     if (a==b){
-//         cout << "oo yeee";
+//         cout << "cmd 2" << endl;
 //     }
-//     else
-//     {
-//         cout << "i loose";
+//     else{
+//         cout << "else cmd" <<endl;
 //     }
-    
 // }
 
 /////////////////////////////////////////////////////
 
 // int main(){
 //     int t;
-//     cin >> t;
+//     cin >> t; 
 //     if(t<10){
-//         cout << "morning";
+//         cout << "cmd 1";
 //     }
 //     else if(t==18){
-//         cout << "unexpected";
+//         cout << "cmd 2";
 //     }
 //     else if(t<20){
-//         cout << "noon";
+//         cout << "cmd 3";
 //     }
 //     else
 //     {cout << "oonoo!";}
-
 // }
 
 /////////////////////////////////////////////////////
 
 // int main(){
 //     int a=444;
-//     string d= (a>50) ?  "yes": "no"; // ternary operator
+//     // ternary operat
+//     string d = (a>50) ?  "yes": "no";
 //     cout << d;
 // }
 
@@ -151,6 +143,7 @@ int main()
 
 // int main(){
 //     int a=2;
+    
 //     switch(a+10){
 //         case 2:
 //         cout << "hi";
@@ -162,13 +155,12 @@ int main()
 
 //         case 124:
 //         cout << "yes";
-//         //break;
+//         break;
 
 //         default:
 //         cout << "no";
-
 //     }
-//     cout <<"\ntime req.";
+//     cout <<"\ntime Up!";
 // }
 
 /////////////////////////////////////////////////////
@@ -177,8 +169,17 @@ int main()
 // {
 //     int i=1;
 //     while(i<9){
-//         cout << i <<"\n";
+//         cout << i <<" ";
 //         i++;
+//     }
+
+//     //also
+//     int n =10;
+//     cout << endl;
+//     cout << n-- << " " << n ;
+
+//     while(n--){
+//         cout << n << " " ;
 //     }
 // }
 
@@ -186,21 +187,20 @@ int main()
 
 // int main(){
 //     int i,j;
-//     // for (i=1;i<=5;i++){
-//     //     for(j=1;j<=i;j++){
-//     //         cout << j;
-//     //     }
-//     //     cout << "\n";
-//     // }
-
+//     for (i=1;i<=5;i++){
+//         for(j=1;j<=i;j++){
+//             cout << j;
+//         }
+//         cout << "\n";
+//     }
 
 //     for(int i=0;i<10;i++){
 //         if(i==5){
 //             //continue;
 //             break;
-//         } cout << i<<"\n";
+//         }
+//         cout << i<<"\n";
 //     }
-
 // }
 
 /////////////////////////////////////////////////////////
@@ -209,6 +209,7 @@ int main()
 //   string cars[8] = {"Volvo", "BMW", "Ford"};
 //   cars[0] = "Mazda";
 //   cars[4] = "Tesla";
+
 //   for(int i = 0; i < 5; i++) {
 //     cout << cars[i] << "\n";
 //   }
@@ -252,26 +253,3 @@ int main()
 // cout << myCar1.brand << " " << myCar1.model << " " << myCar1.year << "\n";
 // cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << "\n";
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

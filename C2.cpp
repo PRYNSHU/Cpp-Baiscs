@@ -1,48 +1,10 @@
 #include <iostream>
 using namespace std;
 
-//////////////////////////////////////////////////////////
-
-// int main(){
-//     string h="sun";
-//     string &k= h; // reference of h ,k is-
-//     cout << k << h <<"\n";
-//     cout << &h;
-// }
-
-//////////////////////////////////////////////////////////
-
-// int main(){
-//     string s= "rise";
-//     string* t= &s;    //add pointer variable
-//     cout << &s << " " << t;
-//     cout << *t;      //de-referencing 
-//     *t = "set";
-//     cout << *t <<"\n";
-//     cout << &s << s;
-// }
-
-/////////////////////////////////////////////////////////
-
-// int main(){
-//     int *p,v;
-//     v=900;
-//     p= &v;
-//     cout << p;
-//     cout << *p <<endl; 
-//     int arr[3]= {12,13,15};
-//     p=&arr[0];
-//     cout << p <<endl;
-//     cout << *(p+2);
-
-// }
-
-/////////////////////////////////////////////////////////
-
 // // Function declaration
 // void myFun();
 
-// // The main method
+// // The main function
 // int main() {
 //   myFun();  // call the function
 //   myFun();
@@ -51,9 +13,11 @@ using namespace std;
 
 // // Function definition
 // void myFun() {
-//   cout << "I just got executed!";
+//   cout << "I just got executed!" <<endl;
 // }
-////////////////////////////
+
+////////////////////////////////////////////////////
+
 // void time(int i,int j=100);
 // int num(int a,int b);
 
@@ -71,7 +35,9 @@ using namespace std;
 // int num(int a,int b){
 //     return a+b;
 // }
+
 /////////////////////////////////////////////////
+
 // void aim(int a,int b);
 
 // int main(){
@@ -99,22 +65,6 @@ using namespace std;
 //    int a= lop(5);
 //    cout <<a;
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
