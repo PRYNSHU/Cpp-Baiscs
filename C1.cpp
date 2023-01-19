@@ -178,7 +178,7 @@ using namespace std; // still confusion.
 //     cout << endl;
 //     cout << n-- << " " << n ;
 
-//     while(n--){
+//     while(n--){  //still confusion
 //         cout << n << " " ;
 //     }
 // }
