@@ -13,7 +13,7 @@ using namespace std;
 
 // // Function definition
 // void myFun() {
-//   cout << "I just got executed!" <<endl;
+//   cout << "I just got excited!" <<endl;
 // }
 
 ////////////////////////////////////////////////////

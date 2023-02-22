@@ -9,7 +9,7 @@ using namespace std; // still confusion.
 //     cout << "HI" << endl;
 //     cout << (" everyone \n"); cout << "noon";
 //     cout << "\twelcome back" << endl;
-//     cout << (5);   
+//     cout << (5);
 // }
 
 
@@ -34,8 +34,8 @@ using namespace std; // still confusion.
 //     int x,y ;
 //     cout << "this is a calculator";
 //     cout << "\n numbers ";
-//     cin >>x >>y ;
-//     cout << "ans is " << x+y << "\n" << x-y <<endl << x*y;
+//     cin >>x >> y;
+//     cout << "Ans is:" << x+y << "\n" << x-y <<endl << x*y;
 // }
 
 ///////////////////////////////////////////////////////////
@@ -54,20 +54,23 @@ using namespace std; // still confusion.
 ///////////////////////////////////////////////////////////
 
 // int main(){
-//     string s= "aeroplanes" , t= "fly";
+//     string s= "aeroplanes_" , t= "fly";
 //     string f= s+" " +t;
 //    // cout << s+t <<"hi";
-//     cout << s.append(t) << endl;
+//     cout << s.append(t) << endl; //for concatinate the string
 //     t.append(s);
 //    // cout <<s;
 //     cout <<t;
 //     cout << endl << f << endl;
+//     string a ="1", b="4";
+//     a.append(b);
+//     cout << a;
 // }
 
 //////////////////////////////////////////////////////////
 
 // int main(){
-//     string name;
+//     string name; int b;
 //     string n = "time-machine"; //a string also has null value at its end
 //     cout << n.length()<< " " <<  n.size() << endl;
 
@@ -78,6 +81,7 @@ using namespace std; // still confusion.
 //         cout <<"\n";
 //     cin >> name;
 //     cout << name;
+//     cin >> b; cout << b;
 // }
 
 ///////////////////////////////////////////////////////////
@@ -91,19 +95,19 @@ using namespace std; // still confusion.
 //     bool m= true;
 //     bool n= 0;
 //     cout << m << " " << n <<endl;
-//     cout << (3==4);
+//     cout << !(3==4);  //can use logical operation at cout command
 // }
 
 //////////////////////////////////////////////////////////
 
 // int main(){
 //     int a,b;
-//     cout<< "start\n";  
+//     cout<< "start\n";
 //     cin >> a >> b;
 //     if(a>=b){
 //         cout << "cmd 1" << endl;
 //     }
-   
+
 //     if (a==b){
 //         cout << "cmd 2" << endl;
 //     }
@@ -174,13 +178,29 @@ using namespace std; // still confusion.
 //     }
 
 //     //also
-//     int n =10;
+//     int n =10 , m =10;
+//     int count1 =0 , count2 =0;
 //     cout << endl;
-//     cout << n-- << " " << n ;
+//     // cout << n-- << " " << n << endl;
+//     // cout << --m << " " << m << endl;
 
-//     while(n--){  //still confusion
+//     //In post decreament , at condition side , there is old
+//     //value i.e at n ==1; then it will n==1 at condition then become 0
+//     while(n--){
 //         cout << n << " " ;
+//         count1++;
 //     }
+
+//     cout << endl;
+//     cout << count1 << endl;
+    
+//     //In pre decreament , at condtion side , there is new
+//     //value i.e at m==1; then it becomes 0 and condtion falsed
+//     while(--m){
+//         cout << m << " ";
+//         count2++;
+//     }
+//     cout << endl << count2 << endl;
 // }
 
 ////////////////////////////////////////////////////////////
@@ -253,3 +273,4 @@ using namespace std; // still confusion.
 // cout << myCar1.brand << " " << myCar1.model << " " << myCar1.year << "\n";
 // cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << "\n";
 // }
+
