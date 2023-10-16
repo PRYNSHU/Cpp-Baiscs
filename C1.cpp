@@ -2,7 +2,7 @@
 // a statement end with semi-colon(;) , quotes and double quotes have differences .
 
 #include <iostream>
-using namespace std; // still confusion.
+using namespace std; // using the namespace/defination from std library
 
 // int main()
 // {
@@ -10,18 +10,21 @@ using namespace std; // still confusion.
 //     cout << (" everyone \n"); cout << "noon";
 //     cout << "\twelcome back" << endl;
 //     cout << (5);
+//     // std::cout << "Something to display";
 // }
 
 
-//int main () { cout << "Hello World! "; return 0; }
+// int main () { cout << "Hello World! "; return 0; }
 
 ///////////////////////////////////////////////////////////
 
 // int main(){
-//     float a= 4, aa= 44 , bb=66; int b = 4.4;
+//     float a= 4.6, aa= 44 , bb=66; 
+//     int b = 4.4;
 //     int c= 'g';
 //     string s= "hell";
 //     const int p= 99;
+//     cout << "a " << a << endl;
 //     cout << "aa is " << aa << " b is "<< b;
 //     cout << "\n ";
 //     cout << "c and s" << c << "\n" << s;
@@ -63,8 +66,9 @@ using namespace std; // still confusion.
 //     cout <<t;
 //     cout << endl << f << endl;
 //     string a ="1", b="4";
-//     a.append(b);
-//     cout << a;
+//     // a.append(b);
+//     b.append(a);
+//     cout << a << " " << b;
 // }
 
 //////////////////////////////////////////////////////////
@@ -235,7 +239,7 @@ using namespace std; // still confusion.
 //   }
 
 //   int num[] ={2,0,50,66,98};
-//   cout << sizeof(num)/sizeof(int); // initially it give total byte using so need to divide.
+//   cout << sizeof(num)/sizeof(num[0]); // initially it give total byte using so need to divide.
 
 // }
 
